@@ -1,0 +1,12 @@
+.itemCard {
+    width: 295px;
+    margin-top: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+
+    img {
+        height: 280px;
+        padding: 10px;
+        object-fit: contain;
+    }
+}

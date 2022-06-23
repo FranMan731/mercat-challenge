@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+@import "../../styles/media-queries.scss";
+
+.main {
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.container {
+    @extend .main;
+}
+
+.inputSearch {
+    @include xs {
+        width: 100%;
+    }
+
+    @include sm {
+        width: 100%;
+    }
+
+    @include md {
+        width: 500px;
+    }
+
+    @include lg {
+        width: 500px;
+    }
+
+    @include xl {
+        width: 500px;
+    }
+}
+
+.modalContainer {
+    top: 20px;
+
+    .typeContainer {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .priceContainer {
+        display: flex;
+        width: 100%;
+        margin: 10px 0;
+    
+        .priceInput {
+            width: 100%;
+        }
+    }
+}
